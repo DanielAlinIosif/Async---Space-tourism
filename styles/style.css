@@ -1,0 +1,45 @@
+:root {
+  --white: #fff;
+  --light-purple: #d0d6f9;
+  --light-black: #0b0d17;
+}
+
+body {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+  margin: 0;
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+header,
+nav ul {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  margin-left: 55px;
+}
+
+image {
+  width: 48px;
+  height: fit-content;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 40px 123px;
+}
+
+li a {
+  margin-right: 79px;
+  color: white;
+}
